@@ -1,0 +1,10 @@
+#content {
+    margin-top: 50px;
+}
+.carousel-item > img {
+    object-fit: cover;
+    height: 350px;
+}
+.btn-secondary {
+    margin: 5px;
+}
