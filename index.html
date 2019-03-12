@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Streaming Anime</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Renime</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/genre.html">Genre</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/about.html">About Us</a>
+        </li>
+        <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li> -->
+        <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+        </li> -->
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+<section>
+  <div class="container">
+    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="10000">
+          <img src="assets/image/animefb1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-interval="2000">
+          <img src="assets/image/ramremfb1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/image/animefb2.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>  
+</section>
+
+<section id="content">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+          <div class="card" style="width: auto;">
+              <img src="assets/image/rezero.jpg" class="card-img-top" alt="Re:Zero cover image">
+              <div class="card-body">
+                <h5 class="card-title">Re:Zero kara Hajimeru Isekai Seikatsu</h5>
+                <p class="card-text">When Subaru Natsuki leaves the convenience store, the last thing he expects is to be wrenched from his everyday life and dropped into a fantasy world. Things aren't looking good for the bewildered teenager; however, not long after his arrival, he is attacked by some thugs.</p>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#rezero">Watch now</a>
+              </div>
+            </div>
+      </div>
+      
+      <div class="col-sm">
+          <div class="card" style="width: auto;">
+              <img src="assets/image/KiminoNawa.jpg" class="card-img-top" alt="Kimi no Na wa cover image.">
+              <div class="card-body">
+                <h5 class="card-title">Kimi no Na wa.</h5>
+                <p class="card-text">Mitsuha Miyamizu, a high school girl, yearns to live the life of a boy in the bustling city of Tokyo—a dream that stands in stark contrast to her present life in the countryside. Meanwhile in the city, Taki Tachibana lives a busy life as a high school student while juggling his part-time job and hopes for a future in architecture.</p>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#kimi">Watch now</a>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-sm">
+          <div class="card" style="width: auto;">
+              <img src="assets/image/thepromisedneverland.jpg" class="card-img-top" alt="The Promised Neverland cover image.">
+              <div class="card-body">
+                <h5 class="card-title">Yakusoku no Neverland</h5>
+                <p class="card-text">Surrounded by a forest and a gated entrance, the Grace Field House is inhabited by orphans happily living together as one big family, looked after by their "Mama," Isabella. Although they are required to take tests daily, the children are free to spend their time as they see fit, usually playing outside, as long as they do not venture too far from the orphanage—a rule they are expected to follow no matter what.</p>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#Yakusoku">Watch now</a>
+              </div>
+            </div>
+      </div>
+   
+    </div>
+
+   
+
+  </div>
+</section>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login to your account</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+              <form action="https://formspree.io/muhammadzidanenahlaqowy@gmail.com" method="POST">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">remember me</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+              </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Register</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="Yakusoku" tabindex="-1" role="dialog" aria-labelledby="YakusokuLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="YakusokuLabel">Watching Yakusoku no Neverland</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <iframe width="100%" height="310" src="https://www.youtube.com/embed/ApLudqucq-s?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Download</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+<div class="modal fade" id="rezero" tabindex="-1" role="dialog" aria-labelledby="rezeroLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="rezeroLabel">Watching Re:Zero kara Hajimeru Isekai Seikatsu</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/Slz_rahWp6Y?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Download</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Modal -->
+<div class="modal fade" id="kimi" tabindex="-1" role="dialog" aria-labelledby="kimiLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="kimiLabel">Watching Kimi no Na wa.</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/NooIc3dMncc?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Download</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<footer class="footer mt-auto py-3">
+    <div class="container">
+      <span class="text-muted">&copy; 2019 Copyright <a href="https://zidane21012001.github.io/">Renime.com</a></span>
+    </div>
+  </footer>
+</body> 
+
+<script src="js/jquery-3.3.1.min.js"></script>    
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
